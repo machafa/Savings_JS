@@ -1,0 +1,55 @@
+<!--PROJECT ON SAVINGS USING JS-->
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <meta name="author" content="Penelope Machafa">
+        <meta name="keywords" content="fadzai, technology, coding, IT, INTERNET">
+        <title>fadzai</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+              new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+            }
+            </script>
+    </head>
+    <body>
+
+        <div id="google_translate_element"></div>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <div class="logo"><img src="logo.png"></div>
+        <div class="bar" width="100%">
+            <span class="other_pages">Home</span>
+            <span class="other_pages">About us</span>
+            <span class="other_pages">Other companies</span>
+            <span class="other_pages">Our services</span>
+        </div>
+       
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+          </div>
+          
+          <div id="main">
+           
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+          </div>
+          
+          <script>
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+          }
+          
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft= "0";
+          }
+          </script>
+    </body>
+</html>
